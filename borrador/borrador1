@@ -1,0 +1,51 @@
+   <!--navbar-->
+    <nav class="menu">
+        <img src="/assets/imagenProyectoRopa2.jpg" alt="" class="menu-img">
+        <!--menu-->
+        <ul class="menu-ul">
+            <li class="menu-li"></a>Home</li>
+            <li class="menu-li"><a href="/html/shop.html">Shop</a></li>
+            <li class="menu-li"><i class="fa-solid fa-user"></i><a href="/html/LogIn.html">Log In</a></li>
+            <li class="menu-li"><a href="/html/micarrito.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+        <!--div utilizado para el titulo y boton de comprar-->
+        <div class="menu-promo">
+            <h1>MaxClothes</h1>
+            <br>
+            <p class="menu-promo-p">New collection</p>
+            <br>
+            <button  class= "menu-promo-button"type="button">Shop Now</button>
+        </div>
+        <!--div usado solo para usarlo de CAPA para el nav-->
+        <div class="capa"></div>
+    </nav>
+    <main class="main">
+        <h2 class="main-title">Nuevos</h2>
+        <br>
+        <section class="contenedor-producto">
+            <div class="product">
+                <img src="/assets/chelsea-market-4975-062939-1-catalog-new.webp" alt="" class="product__img">
+                <div clasS="product__description">
+                <h3 class="product__title">Buzo Kendrack</h3>
+                <span class="product__price">$7000.00</span>
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="product">
+                <img src="/assets/polo-label-0329-380329-1-catalog-new.webp" alt="" class="product__img">
+                <div class="product__description">
+                <h3 class="product__title">Buzo Loren</h3>
+                <span class="product__price">$8000.00</span>
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            </div>           
+            <div class="product">
+                <img src="/assets/mr-town-0499-423049-3-catalog-new.webp" alt="" class="product__img">
+                <div class="product__description">
+                <h3 class="product__title">Buzo Mark</h3>
+                <span class="product__price">$10999.00</span>
+            </div>
+            <i class="product__icon fas fa-cart-shopping"></i>
+            </div>
+        </section>
+    </main>

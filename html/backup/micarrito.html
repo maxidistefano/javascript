@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/estilos.css/estilos.css">
+     <!--cdn para font awesome (AGREGAR ICONOS)-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+      <!--cdn para bootstrap-->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body>
+     <!--navbar-->
+     <nav class="menu">
+        <img src="/assets/imagenProyectoRopa2.jpg" alt="" class="menu-img">
+        <!--menu-->
+        <ul class="menu-ul">
+            <li class="menu-li"><a href="/html/index.html">Home</a></li>
+            <li class="menu-li"><a href="/html/shop.html">Shop</a></li>
+            <li class="menu-li"><i class="fa-solid fa-user"></i><a href="/html/LogIn.html">Log In</a></li>
+            <li class="menu-li"><a href="/html/micarrito.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+        <!--div utilizado para el titulo y boton de comprar-->
+        <div class="menu-promo">
+            <h1>MaxClothes</h1>
+            <br>
+            <p class="menu-promo-p">New collection</p>
+            <br>
+            <button  class= "menu-promo-button"type="button">Shop Now</button>
+        </div>
+        <!--div usado solo para usarlo de CAPA para el nav-->
+        <div class="capa"></div>
+     </nav>
+        <!--carrito-->
+            <div class="tab-pane fade" id="pills-contact" role="tabpannel" aria-labelledby="pills-contact-tab">
+    <table class="table table-dark table-striped">
+        <thead>
+          <tr class="text -primarys">
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td class="table__productos">
+                <img src="/assets/chelsea-market-4975-062939-1-catalog-new.webp" alt="">
+                <h6 class="titulo">Titulo</h6>
+            </td>
+            <td class="table__price"><p>$7000</p></td>
+            <td class="table__cantidad">
+                <input type="number" min="1" value="1">
+                <button class="delete btn btn-danger">x</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+      <br>
+      <div clasS="row mx-4">
+        <div class="col">
+            <h3 class="itemCantTotal">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+            <button class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+            </div>
+
+            <script src="/javascript/miarchivo.js"></script>
+
+<!--cdn query-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!--cdn bootstrap-->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
