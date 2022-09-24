@@ -99,13 +99,7 @@ function carritoTotal(){
 
 
 
-/*async function obtenerJSON() {
-    const URLJSON="stock.json"
-    const resp=await fetch (URLJSON)
-    const data=await resp.json()
-    stockJSON = data;
-    cargarStock()
-}*/
+
 
 
 //Funcion para eliminar producto de carrito
