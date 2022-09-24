@@ -1,0 +1,17 @@
+ [ 
+     {
+         "nombre" : "MercadoPago",
+         "cuotas" : "1"
+        },
+        
+        {
+            "nombre" : "Tarjeta de Credito",
+            "cuotas" : "3"
+    },
+    
+    {
+        "nombre" : "RapiPago",
+        "cuotas" : "1"
+    }
+
+]

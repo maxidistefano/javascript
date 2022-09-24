@@ -98,25 +98,15 @@ function carritoTotal(){
 }
 
 
-//leer datos de archivo JSON usando API FETCH
-function cargarStock(){
-        fetch('stock.json')
-        .then(response => response.json())//indico formato en el que se desea obtener la informacion
-        .then(productos =>{
-            productos.forEach(producto => {
-                const row = document.createElement ('tr');
-                row.innerHTML += `
-                <td>${producto.nombre}</td>
-                <td>${producto.img}</td>
-                <td>${producto.precio}</td>
 
-                `;
-                tabla.appendChild(row);
-            });
-        })
-}
+/*async function obtenerJSON() {
+    const URLJSON="stock.json"
+    const resp=await fetch (URLJSON)
+    const data=await resp.json()
+    stockJSON = data;
+    cargarStock()
+}*/
 
-cargarStock();
 
 //Funcion para eliminar producto de carrito
 function removeItemCarrito (e){
@@ -149,6 +139,20 @@ carrito.forEach(item=> {
 }) 
 console.log(carrito)
 }
+
+
+//funcion boton comprar
+
+const finalizarCompra = document.getElementById('comprar')
+finalizarCompra.addEventListener('click', ()=>{
+    Swal.fire(
+        'Listo!',
+        'Su pedido esta en fase de preparación!',
+        'success'
+      )
+    carrito = []
+    renderCarrito()
+})
 
 //localstorage y json
 function addLocalStorage(){
